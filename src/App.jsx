@@ -8,6 +8,8 @@ import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import Gallery from "./pages/Gallery";
 import About from "./pages/About";
+import Schedule from "./pages/Schedule";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
