@@ -88,7 +88,7 @@ function Hero() {
                       }, 350);
                     }
                   }}
-                  className="px-6 py-2 rounded-md bg-white/10 backdrop-blur-sm border border-white/30 text-white uppercase tracking-wider text-sm shadow-sm hover:bg-white/20 transition-colors duration-200 whitespace-nowrap"
+                  className="px-6 py-2 cursor-pointer rounded-md bg-white/10 backdrop-blur-sm border border-white/30 text-white uppercase tracking-wider text-sm shadow-sm hover:bg-white/20 transition-colors duration-200 whitespace-nowrap"
                 >
                   Schedule a Visit
                 </button>
@@ -109,7 +109,7 @@ function Hero() {
                       }, 350);
                     }
                   }}
-                  className="px-4 py-2 sm:px-6 rounded-md bg-white/10 backdrop-blur-sm border border-white/30 text-white uppercase tracking-wider text-sm shadow-sm hover:bg-white/20 transition-colors duration-200 whitespace-nowrap"
+                  className="px-4 py-2 cursor-pointer sm:px-6 rounded-md bg-white/10 backdrop-blur-sm border border-white/30 text-white uppercase tracking-wider text-sm shadow-sm hover:bg-white/20 transition-colors duration-200 whitespace-nowrap"
                 >
                   Explore Property
                 </button>

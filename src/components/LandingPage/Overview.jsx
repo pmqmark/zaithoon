@@ -66,7 +66,7 @@ function Overview() {
                 }, 350);
               }
             }}
-            className="px-6 py-3 rounded-md bg-[#b78659] text-white text-sm uppercase tracking-wider shadow"
+            className="px-6 cursor-pointer py-3 rounded-md bg-[#b78659] text-white text-sm uppercase tracking-wider shadow"
           >
             Schedule a visit
           </button>
