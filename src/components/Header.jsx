@@ -60,7 +60,7 @@ function Header() {
         </nav>
 
         {/* Right actions */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4">
           <button
             onClick={() => {
               const el = document.getElementById("schedule");
@@ -75,14 +75,14 @@ function Header() {
                 }, 350);
               }
             }}
-            className="px-4 py-2 rounded-md bg-[#b78659] text-white text-sm uppercase tracking-wider shadow"
+            className="px-4 py-2 rounded-md bg-[#b78659] cursor-pointer text-white text-sm uppercase tracking-wider shadow"
           >
             Schedule a visit
           </button>
         </div>
 
         {/* Mobile menu button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={() => setOpen(!open)}
             aria-label="menu"
@@ -98,7 +98,7 @@ function Header() {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mx-auto mt-2 max-w-6xl bg-white rounded-xl shadow-lg px-6 py-4 md:hidden"
+          className="mx-auto mt-2 max-w-6xl bg-white rounded-xl shadow-lg px-6 py-4 lg:hidden"
         >
           <nav className="flex flex-col gap-3">
             {navItems.map((item) => (
