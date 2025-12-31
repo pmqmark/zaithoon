@@ -65,9 +65,7 @@ function Hero() {
             >
               <div className="flex items-center gap-3 text-white text-sm md:text-base font-medium mb-3">
                 <FiMapPin className="w-5 h-5 opacity-95" />
-                <span className="leading-tight">
-                  XJQ4+4QJ Muvattupuzha, Kerala
-                </span>
+                <span className="leading-tight">Muvattupuzha, Kerala</span>
               </div>
 
               <div className="flex gap-3 flex-nowrap justify-start w-full">

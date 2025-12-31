@@ -50,9 +50,9 @@ export default function GetinTouch() {
               <p className="text-gray-600">
                 Zaithoon Villas
                 <br />
-                XJQ4+4QJ
+                Muvattupuzha
                 <br />
-                Muvattupuzha, Kerala
+                Kerala
               </p>
             </div>
           </div>
