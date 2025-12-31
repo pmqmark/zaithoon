@@ -52,7 +52,7 @@ function Footer() {
             <address className="not-italic text-gray-300 mb-4">
               Zaithoon Villas
               <br />
-              XJQ4+4QJ Muvattupuzha, Kerala
+              Muvattupuzha, Kerala
               <br />
               Phone:{" "}
               <a href="tel:9544844499" className="hover:text-white">
