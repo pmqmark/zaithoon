@@ -139,7 +139,7 @@ export default function Enquiry() {
             <div className="mt-4 flex items-center gap-4">
               <button
                 type="submit"
-                className="px-6 py-2 bg-[#b78659] text-white rounded-md shadow"
+                className="px-6 py-2 bg-[#b78659] cursor-pointer text-white rounded-md shadow"
               >
                 Send Message via WhatsApp
               </button>
@@ -154,7 +154,7 @@ export default function Enquiry() {
                   setCheckOut("");
                   setMessage("");
                 }}
-                className="px-4 py-2 bg-white border border-gray-200 rounded-md"
+                className="px-4 py-2 cursor-pointer bg-white border border-gray-200 rounded-md"
               >
                 Reset
               </button>
